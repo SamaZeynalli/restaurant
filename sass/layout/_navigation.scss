@@ -1,0 +1,30 @@
+.head {
+    background: #FFFBF3;
+    padding-bottom: 100x;
+    .navbar {
+        padding-top: 30px;
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .collapse {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 80px;
+                    li {
+                        font-weight: 600;
+                        a {
+                            color: #3C3C3C;
+                            &:hover {
+                                color: #F4B41B;
+                                border-bottom: 3px solid #FCC647;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

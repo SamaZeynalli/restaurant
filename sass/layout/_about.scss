@@ -1,0 +1,181 @@
+.about {
+    background: #E5E5E5;
+    text-align: center;
+    padding-top: 96px;
+    p {
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    .process {
+        display: flex;
+        justify-content: space-between;
+        .works {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h4 {
+                margin-top: 40px;
+            }
+            p {
+                margin-top: 20px;
+            }
+            .img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                width: 88px;
+                height: 88px;
+            }
+            .order {
+                margin-top: 14px;
+                background: #335DFF;
+            }
+            .delivery {
+                margin-top: 58px;
+                background: #F7CA00;
+            }
+            .payment {
+                margin-top: 14px;
+                background: #0BD28E;
+            }
+        }
+    }
+}
+
+.dishes {
+    background: #E5E5E5;
+    padding-top: 45px;
+    padding-bottom: 115px;
+    text-align: center;
+    p {
+        margin-top: 16px;
+        margin-bottom: 35px;
+    }
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        .box {
+            width: calc(( 100% - 75px ) / 4 );
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start ;
+            background: #FFFFFF;
+            border: 1px solid #F9A755;
+            box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+            border-radius: 10.4827px;
+            padding: 15px 20px;
+            margin-top: 45px;
+            p {
+                text-align: left !important;
+                margin-top: 14px !important;
+                margin-bottom: 10px !important;
+            }
+            ul {
+                display: flex;
+                margin: 7px 0;
+            }
+            .buy {
+                margin: auto;
+                display: flex;
+                justify-content: space-between !important;
+                align-items: center;
+                .price {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #3C3C3C;
+                }
+                .icon {
+                    text-align: right;
+                    display: flex;
+                    gap: 9px;
+                }
+                .bag {
+                    background: #F24D21;
+                    border-radius: 3.9022px;
+                    padding: 6px;
+                }
+                .share {
+                    background: #3C3C3C;
+                    border-radius: 3.9022px;
+                    padding: 6px;
+                }
+            }
+        }
+    }
+    .pagination {
+        display: inline-block;
+        margin-top: 90px;
+        a {
+            margin-right: 20px;
+            color: #667085;
+            float: left;
+            padding: 11px 15px;
+            text-decoration: none;
+            border-radius: 50%;
+            border: 1px solid #EAECED;
+          }
+          a.active {
+            background: #FEB918;
+            color: white;
+            border-radius: 50%;
+          }
+      }
+}
+
+.fast {
+    background: #FFFBF3;
+    .container {
+        display: flex;
+        align-items: center;
+        h2 {
+            margin-top: 13px;
+            height: 140px;
+        }
+        .button-03 {
+            margin-top: 30px;
+        }
+    }
+}
+
+.discount {
+    padding-top: 115px;
+    background: #E5E5E5;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .link {
+            margin-top: 20px;
+            display: flex;
+            gap: 22px;
+        }
+    }
+}
+
+.contact {
+    background: #FFFFFF;
+    border-radius: 30px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 57px;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+        }
+        .line-02 {
+            border: 4px solid #E6E6E6;
+        }
+    }
+        i {
+            background: #FEB918;
+            border-radius: 50%;
+            padding: 35px 30px;
+        }
+}

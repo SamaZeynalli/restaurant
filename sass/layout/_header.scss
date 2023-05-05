@@ -1,0 +1,28 @@
+header {
+    margin-top: 90px;
+    .container {
+        display: flex;
+        align-items: center;
+        .left {
+            .button-01 {
+                margin-top: 12px;
+            }
+            .button-02 {
+                margin-top: 27px;
+                display: flex;
+                gap: 26px;
+                a {
+                    display: flex;
+                    gap: 14px;
+                    align-items: center;
+                    img {
+                        background: #FFFFFF;
+                        box-shadow: 0px 0px 20px rgba(199, 199, 199, 0.25);
+                        border-radius: 20px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
